@@ -6,7 +6,7 @@ import (
 
 func myFunction(x int, y int) (result int) {
 	result = x + y
-	return
+	return result
 }
 
 func main() {
