@@ -1,3 +1,4 @@
+// Package lasagna implements the logic for the lasagna exercise, and will not run as a normal Go package.
 package lasagna
 
 var OvenTime int = 40
