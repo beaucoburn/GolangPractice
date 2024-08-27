@@ -12,7 +12,7 @@ type ContactDetails struct {
 }
 
 func main() {
-  tmpl := template.Must(template.ParseFiles("forms.html"))
+  tmpl := template.Must(template.ParseFiles("Forms.html"))
 
   http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
     if r.Method != http.MethodPost {
