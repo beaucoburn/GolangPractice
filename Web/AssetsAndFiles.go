@@ -6,5 +6,5 @@ func main() {
   fs := http.FileServer(http.Dir("assets/"))
   http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-  http.ListenandServe(":8080", nil)
+  http.ListenAndServe(":8080", nil)
 }
